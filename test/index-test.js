@@ -4,6 +4,6 @@ const hello = require('../index');
 
 describe('testing index module', function(){
   it('should return "hello travis"', function(){
-    assert.ok(hello() === 'hello travis');
+    assert.ok(hello() === 'hello travi');
   });
 });
